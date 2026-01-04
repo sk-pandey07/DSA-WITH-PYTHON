@@ -13,3 +13,6 @@ This repository contains my daily DSA practice.
 - HackerRank
 ## Goal
 Solve 200+ problems with clean and optimized code.
+
+This repository contains my daily DSA practice using Python.
+I focus on writing clean, interview-ready code without using built-in shortcuts.
