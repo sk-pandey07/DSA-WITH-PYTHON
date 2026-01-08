@@ -6,7 +6,11 @@
 # We start by assuming the first element is maximum,
 # then compare it with every other element and update if needed.
 
-arr = [10,4,12,33,15,54]
+n = int(input("enter number:")
+arr = []
+for i in range(n):
+  arr.append(int(input()))
+  
 max = arr[i]
 
 for i in range(len(arr)):
