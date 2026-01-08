@@ -4,14 +4,18 @@
 # Space Complexity: O(1)
 # Explanation:
 # We traverse the array once and check each element.
-# If the element is divisible by 2, it is even; otherwise, it is odd.
-# We maintain two counters to keep track of even and odd elements.
+# If the element is divisible by 2, it is even; otherwise, it is odd
+# We maintain two counters to keep track of even and odd elements
 
-arr = [1,2,3,4,5,6]
+n = int(input("enter number:")
+arr = []
+for i in range(n):
+  arr.append(int(input()))
+  
 even = 0
 odd = 0
 
-for i in range(len(arr)):
+for i in range(n):
   if(arr[i] % 2 == 0):
     even += 1
   else:
