@@ -5,10 +5,13 @@
 # Explanation:
 # We traverse the array once and keep adding each element to a variable.
 
-arr = [1,2,3,4,5,6,7,8,9]
+n = int(input("enter number:"))
+arr = []
+for i in range(n):
+  arr.append(int(input()))
+
 sum = 0
+for i in range(n):
+  sum += arr[i]
 
-for i in range(len(arr)):
-  sum = sum + arr[i]
-
-print("total sum of array:",sum)
+print("sum of array:",sum)
