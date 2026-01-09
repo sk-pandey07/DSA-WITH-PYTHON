@@ -6,8 +6,10 @@
 # We traverse the array from the last index to the first index
 # and print elements in reverse order without using extra space.
 
-arr = [1,2,3,4,5]
-n = len(arr)
+n = int(input("enter number:"))
+arr = []
+for i in range(n):
+  arr.append(int(input()))
 
 for i in range(n-1,-1,-1):
   print(arr[i]," ")
