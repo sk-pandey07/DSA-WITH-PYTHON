@@ -8,13 +8,12 @@
 # Finally, we traverse the array and print each element.
 
 n = int(input("enter size:"))
-arr = []
+arr = [] 
 
-print("enter element:")
+print("enter element")
 for i in range(n):
   arr.append(int(input()))
 
 print("array element:")
 for i in range(n):
   print(arr[i]," ")
-  
