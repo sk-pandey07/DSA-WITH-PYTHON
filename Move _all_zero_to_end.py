@@ -22,3 +22,5 @@ for i in range(k,n):
   arr[i] = 0
 
 print("move all zero element to the end:",arr)
+
+
