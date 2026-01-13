@@ -5,10 +5,12 @@
 # Explanation:
 # We check every possible pair of elements.
 # If their sum equals the target, we print their indexes
+n = int(input("enter numbe:"))
+arr = []
+for i in range(n):
+    arr.append(int(input()))
 
-arr = [2, 7, 11, 15]
-target = 9
-n = len(arr)
+target = int(input("target:"))
 
 found = False
 
